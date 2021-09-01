@@ -1,6 +1,8 @@
-import React from "react";
-import MyComponent from "./MyComponent";
-const App = () => {
-  return <MyComponent name={3}>리액트</MyComponent>;
-};
+import React, { Component } from "react";
+import ValidationSample from "./ValidationSample";
+class App extends Component {
+  render() {
+    return <ValidationSample />;
+  }
+}
 export default App;
